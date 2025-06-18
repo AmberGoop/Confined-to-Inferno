@@ -10,6 +10,7 @@ public class ModItems {
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(ConfinedToInferno.MODID);
 
     public static final DeferredItem<Item> VESICLE = ITEMS.register("vesicle", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> VINE_YARN = ITEMS.register("vine_yarn", () -> new Item(new Item.Properties()));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
