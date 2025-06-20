@@ -1,6 +1,7 @@
 package net.mintiestkitkat.cinferno;
 
 import net.mintiestkitkat.cinferno.block.ModBlocks;
+import net.mintiestkitkat.cinferno.item.ModCreativeModeTabs;
 import net.mintiestkitkat.cinferno.item.ModItems;
 import org.slf4j.Logger;
 
@@ -39,6 +40,7 @@ public class ConfinedToInferno {
         // Note that this is necessary if and only if we want *this* class (ExampleMod) to respond directly to events.
         // Do not add this line if there are no @SubscribeEvent-annotated functions in this class, like onServerStarting() below.
         NeoForge.EVENT_BUS.register(this);
+        ModCreativeModeTabs.register(modEventBus);
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
         // Register the item to a creative tab
@@ -56,11 +58,11 @@ public class ConfinedToInferno {
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if(event.getTabKey()==CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.VESICLE);
-            event.accept(ModItems.VINE_YARN);
+            event.accept(ModItems.TWINE);
 
         }
         if(event.getTabKey()==CreativeModeTabs.BUILDING_BLOCKS) {
-            event.accept(ModBlocks.YARN_BUNDLE);
+            event.accept(ModBlocks.TWINE_BUNDLE);
         }
     }
 

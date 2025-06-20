@@ -1,5 +1,6 @@
 {
   "item.cinferno.vesicle": "Vesicle",
-  "item.cinferno.vine_yarn": "Vine yarn",
-  "block.cinferno.yarn_bundle": "Yarn Bundle"
+  "item.cinferno.twine": "Twine",
+  "block.cinferno.twine_bundle": "Twine Bundle",
+  "creativetab.cinferno.items": "Confined To Inferno"
 }

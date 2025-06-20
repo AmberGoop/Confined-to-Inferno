@@ -1,7 +1,0 @@
-{
-  "parent": "minecraft:block/cube_column",
-  "textures": {
-    "end": "cinferno:block/yarn_bundle_top",
-    "side": "cinferno:block/yarn_bundle_side"
-  }
-}

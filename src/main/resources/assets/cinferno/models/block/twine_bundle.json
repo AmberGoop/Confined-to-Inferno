@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "cinferno:block/twine_bundle_top",
+    "side": "cinferno:block/twine_bundle_side"
+  }
+}

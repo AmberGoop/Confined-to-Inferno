@@ -16,7 +16,7 @@ import java.util.function.Supplier;
 public class ModBlocks {
     public static final DeferredRegister.Blocks BLOCKS = DeferredRegister.createBlocks(ConfinedToInferno.MODID);
 
-    public static final DeferredBlock<Block> YARN_BUNDLE = registerBlock("yarn_bundle", ()-> new Block(BlockBehaviour.Properties.of().strength(1f).sound(SoundType.WOOL)));
+    public static final DeferredBlock<Block> TWINE_BUNDLE = registerBlock("twine_bundle", ()-> new Block(BlockBehaviour.Properties.of().strength(1f).sound(SoundType.WOOL)));
 
 
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block) {
