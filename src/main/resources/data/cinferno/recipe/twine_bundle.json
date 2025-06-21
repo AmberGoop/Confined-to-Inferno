@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "tt",
+    "tt"
+  ],
+  "key": {
+    "t": {
+      "item": "cinferno:twine"
+    }
+  },
+  "result": {
+    "count": 1,
+    "id": "cinferno:twine_bundle"
+  }
+}

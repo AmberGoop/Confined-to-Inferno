@@ -56,14 +56,7 @@ public class ConfinedToInferno {
 
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
-        if(event.getTabKey()==CreativeModeTabs.INGREDIENTS) {
-            event.accept(ModItems.VESICLE);
-            event.accept(ModItems.TWINE);
 
-        }
-        if(event.getTabKey()==CreativeModeTabs.BUILDING_BLOCKS) {
-            event.accept(ModBlocks.TWINE_BUNDLE);
-        }
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call

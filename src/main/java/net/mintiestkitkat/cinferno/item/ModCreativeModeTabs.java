@@ -21,6 +21,7 @@ public class ModCreativeModeTabs {
                 output.accept(ModItems.VESICLE);
                 output.accept(ModItems.TWINE);
                 output.accept(ModBlocks.TWINE_BUNDLE);
+                output.accept(ModItems.GRILLED_NETHER_MUSHROOM);
             })
             .build());
 
